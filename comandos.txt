@@ -23,3 +23,4 @@ Comando extra:
   git restore <file>: para restaurar un archivo eliminado.
   git rm <archivo>: eliminar archivo.
   mv <archivo> <nuevo nombre>: cambiar nombre.
+  git status -s: es para no mostrar mucha info riesgosa en terminar
