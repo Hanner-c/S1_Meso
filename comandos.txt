@@ -14,15 +14,26 @@ Para subir archivos de commit a cualquier servidor de archivos en la nube:
   "git puch":
 
 Comando extra:
-  git code .: es para abrir los archivos en un IDE.
-  git status: es para ver el preseso de los archivos.
+  cd: para acceder a un archivo.
   ls: para ver los archivos y carpetas existetes dentro del proyecto.
   pwd: para ver la direccion de los archivos.
-  cd: para acceder a un archivo.
+  mv <archivo> <nuevo nombre>: cambiar nombre.
+
+  git code .: es para abrir los archivos en un IDE.
+  git cat: ver contenido de archivo.
+  git status: es para ver el preseso de los archivos.
+  git status -s: es para no mostrar mucha info riesgosa en terminar.
+
   git restore --staged <file>: para devolver los cambios pasados a staged
   git restore <file>: para restaurar un archivo eliminado.
   git rm <archivo>: eliminar archivo.
-  mv <archivo> <nuevo nombre>: cambiar nombre.
-  git status -s: es para no mostrar mucha info riesgosa en terminar.
   git diff: es para mostrar texto y modificaciones. (Q para salir de la ventana)
-  git log --oneline: ver historial
+  git branch: ver rama.
+  git checkout <nombre de rama>: cambiar de rama.
+  git checkout -b <nombre>: crear rama nueva.
+  git log --oneline: ver historial.
+  git merge <nombre de rama>: es para atraer archivos y cambios de otra rama a la rama main.
+
+  git remote add origin <direccion de servidor>: para indicar la direccion a la cual queremos subir a el servidor
+  git puch -u origin main: es para indicar la rama a subir, (-u es para crear la rama y origen <nombre>)
+  cuando requiera una contrase;a y un usuario es para poner un token de DEVELOPER
