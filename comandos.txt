@@ -1,0 +1,25 @@
+Comando para acceder a git:
+  Para hacer cualquier cosa en git se necesira el sufijo "git"
+  para iniciar un repositorio es git init
+
+Para agragar a staged:
+  "git add .": para para agregar una version nueva de todos los archivos dentro de la carpeta
+  (es una mala practiva, lo mejor es solo seleccionar el archivo que se modifico unicamente)
+  
+Para agregar archivos a comprometer:
+  "git commit -m "nombre de la version"": para agregar los aschivos de staged a commit
+
+Para subir archivos de commit a cualquier servidor de archivos en la nube:
+  "":
+  "git puch":
+
+Comando extra:
+  git code .: es para abrir los archivos en un IDE.
+  git status: es para ver el preseso de los archivos.
+  ls: para ver los archivos y carpetas existetes dentro del proyecto.
+  pwd: para ver la direccion de los archivos.
+  cd: para acceder a un archivo.
+  git restore --staged <file>: para devolver los cambios pasados a staged
+  git restore <file>: para restaurar un archivo eliminado.
+  git rm <archivo>: eliminar archivo.
+  mv <archivo> <nuevo nombre>: cambiar nombre.
