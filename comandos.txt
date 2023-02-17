@@ -24,4 +24,5 @@ Comando extra:
   git rm <archivo>: eliminar archivo.
   mv <archivo> <nuevo nombre>: cambiar nombre.
   git status -s: es para no mostrar mucha info riesgosa en terminar.
-  git diff: es para mostrar texto y modificaciones.
+  git diff: es para mostrar texto y modificaciones. (Q para salir de la ventana)
+  git log --oneline: ver historial
