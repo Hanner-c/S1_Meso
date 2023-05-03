@@ -15,9 +15,7 @@ int main()
   cout << "5. Profesion" << endl;
   cin >> opcion;
 
-  switch (opcion)
-  {
-
+  switch(opcion){
   case 1:
     float num1, num2, num3;
     float resultado;
@@ -52,6 +50,7 @@ int main()
     cout << "Ingrese su nombre de usuario: " << endl;
     cin >> usuario;
     cout << "Su nombre de usuario es: " << usuario;
+    break;
   case 4:
     string ape1, ape2, nom1, nom2;
     cout << "Ingrese dos nombres: " << endl;
@@ -78,9 +77,11 @@ int main()
     {
       cout << "Lic";
     }
+    break;
 
   default:
     cout << "Las opciones no existen: ";
+    break;
   }
 
   return 0;
